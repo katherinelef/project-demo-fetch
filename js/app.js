@@ -2,12 +2,13 @@ const form = document.getElementById('search-form');
 const searchField = document.getElementById('search-keyword');
 const responseContainer = document.getElementById('response-container');
 let searchedForText;
-let uri = `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=45648ce845bb4678ba50c7ec3edb0ec7`;
+
 
 form.addEventListener('submit',function (e) {
   e.preventDefault();
   responseContainer.innerHTML = '';
   searchedForText = searchField.value;
+  let uri = `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=45648ce845bb4678ba50c7ec3edb0ec7`;
   fetch(uri)
      .then(function(response){
          console.log(response);
