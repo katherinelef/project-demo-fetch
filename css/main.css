@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #ffc107;
+    height: 25vh;
+    box-sizing: border-box;
+    text-align: center;
+    padding: px;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 50px;
+}
+
+#submit-btn{
+    background-color: rgb(67, 133, 233);
+    color: white;
+    border: 1px solid transparent;
+    padding: 7px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+#search-keyword{
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    padding: 5px;
+    
+
+}
+
+.news {
+    list-style-type: none;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 15px auto;
+    box-shadow: 5px 5px 5px 0px rgb(129, 125, 125);
+    width: 75%;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color:black;
+}
